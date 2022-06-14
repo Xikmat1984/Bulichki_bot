@@ -46,7 +46,7 @@ db = Database('main.db')
 #    await message.reply("Assalomu alekum",reply_markup=Bosh_sahifa)
 
 @dp.message_handler(commands="start")
-async def bulochka(message: types.Message):
+async def bulochk(message: types.Message):
     await message.answer("Buluchkalar",reply_markup=types_bulochka)
 
 @dp.message_handler()
