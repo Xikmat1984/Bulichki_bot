@@ -52,7 +52,7 @@ async def bulochka(message: types.Message):
 @dp.message_handler()
 
 @dp.callback_query_handler(text="krem")
-async def send_xikmat(call: CallbackQuery):
+async def send_krem(call: CallbackQuery):
     await call.message.answer("Qancha olasiz?",reply_markup=raqamlar)
 
 @dp.callback_query_handler(text="Oddiy")
